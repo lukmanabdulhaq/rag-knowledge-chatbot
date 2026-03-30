@@ -111,3 +111,34 @@ run_ingestion_pipeline('./docs', namespace='client-b')
  Author
 
 Lukman Abdulhaq — [GitHub](https://github.com/lukmanabdulhaq)
+
+## Build Journal
+
+Every step built and verified in the terminal on Manjaro Linux.
+
+### 1 — Project initialized with uv
+![uv init](docs/progress/01_uv_init.png)
+
+### 2 — Full stack installed (LlamaIndex, Pinecone, Cohere, LangGraph)
+![stack installed](docs/progress/02_uv_add_stack.png)
+
+### 3 — API keys configured
+![env configured](docs/progress/03_env_configured.png)
+
+### 4 — Ingestion pipeline: load → chunk → embed → upsert to Pinecone
+![pipeline running](docs/progress/04_pipeline_running.png)
+
+### 5 — Retrieval + rerank working
+![retrieval working](docs/progress/05_retrieval_working.png)
+
+### 6 — LLM connected via Ollama (Llama 3.2)
+![ollama llm](docs/progress/06_ollama_llm.png)
+
+### 7 — FastAPI serving live on port 8000
+![fastapi running](docs/progress/07_fastapi_running.png)
+
+### 8 — Docker build started
+![docker build](docs/progress/08_docker_build.png)
+
+### 9 — Docker image built successfully
+![docker complete](docs/progress/09_docker_complete.png)
