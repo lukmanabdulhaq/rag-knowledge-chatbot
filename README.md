@@ -63,3 +63,7 @@ infra/        # Docker, Terraform
 
 Supports both Voyage-3 (Anthropic) and OpenAI text-embedding-3-small.
 Switch via the provider parameter in embed_nodes().
+
+## Demo
+
+https://github.com/lukmanabdulhaq/rag-knowledge-chatbot/raw/main/demo.mp4
